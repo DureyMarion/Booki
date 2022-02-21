@@ -77,7 +77,7 @@ i{
 
 #filtres{
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -276,7 +276,7 @@ main{
 
 .flex-container {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .flex-container > div {
