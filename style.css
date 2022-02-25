@@ -12,10 +12,11 @@ body{
 }
 
 h2{
-  font-size: 17px;
+  font-size: 24px;
   font-weight: bold;
   padding: 10px 10px;
   padding-top: 25px;
+  text-align: left;
 }
 
 h3{
@@ -67,6 +68,11 @@ a{
 a:hover{
   border-bottom: 4px solid blue;
   color: blue;
+}
+
+.p-left{
+  text-align: left;
+  margin-left: 10px;
 }
 
 i{
