@@ -75,6 +75,12 @@ i{
   text-align: left;
 }
 
+.title-filter{
+  display: flex;
+  flex-direction:column;
+  text-align: left;
+}
+
 #filtres{
   display: flex;
   flex-wrap: wrap;
