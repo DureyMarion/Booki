@@ -33,7 +33,7 @@ p{
   display: flex;
   align-items: center;
   max-width: 20%;
-  padding: 10px;
+  padding: 20px;
 }
 
 nav{
@@ -51,7 +51,7 @@ nav ul{
 }
 
 nav li{
-  margin: 0 10px 0 10px
+  margin: 0 60px 0 60px
 }
 
 li.page-active{
@@ -210,6 +210,11 @@ i{
 }
 
 /* Main */
+
+.fa-chart-line{
+  margin-left: 120px;
+}
+
 img{
   border-radius: 10px;
   object-fit: contain;
