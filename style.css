@@ -75,6 +75,10 @@ i{
   text-align: left;
 }
 
+.marseille-france{
+  border-block: none;
+}
+
 .title-filter{
   display: flex;
   flex-direction:column;
