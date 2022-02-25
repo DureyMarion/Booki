@@ -107,6 +107,7 @@ i{
 
 .btn-color{
   background-color: white;
+  border-radius: 30px;
 }
 
 .btn-color:hover{
