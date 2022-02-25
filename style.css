@@ -83,6 +83,8 @@ i{
   display: flex;
   flex-direction:column;
   text-align: left;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 #filtres{
@@ -120,6 +122,8 @@ i{
   border-radius: 25px;
   min-width: 180px;
   min-height: 40px;
+  margin-top: 12px;
+  margin-left: 10px;
 }
 
 .filter-text{
@@ -143,6 +147,7 @@ i{
   border-radius: 15px;
   width: 230px;
   height: 30px;
+  margin-top: 10px;
 }
 
 .btn-recherche{
@@ -183,6 +188,11 @@ i{
   display: flex;
   padding-top: 13px;
   padding-left: 13px;
+}
+
+.fa-info-circle{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* Main */
@@ -227,6 +237,8 @@ img{
 
 .lien-voir-plus{
   text-align: left;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 .activites-a-marseille{
