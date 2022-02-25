@@ -135,7 +135,7 @@ i{
   margin-left: 10px;
   margin-top: 10px;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .icon-map{
@@ -152,7 +152,8 @@ i{
   border-radius: 15px;
   width: 230px;
   height: 30px;
-  margin-top: 10px;
+  margin-top: 25px;
+  margin-bottom: 15px;
 }
 
 .btn-recherche{
@@ -169,35 +170,43 @@ i{
 
 .fa-map-marker-alt{
   display: flex;
+  font-size: medium;
+  margin-right: 10px;
 }
 
 .fa-money-bill-wave{
   display: flex;
-  padding-top: 13px;
-  padding-left: 13px;
+  padding-top: 11px;
+  padding-left: 9px;
+  font-size: large;
 }
 
 .fa-universal-access{
   display: flex;
-  padding-top: 13px;
-  padding-left: 13px;
+  padding-top: 11px;
+  padding-left: 10px;
+  font-size: large;
 }
 
 .fa-heart{
   display: flex;
-  padding-top: 13px;
-  padding-left: 13px;
+  padding-top: 11px;
+  padding-left: 10px;
+  font-size: large;
 }
 
 .fa-dog{
   display: flex;
-  padding-top: 13px;
-  padding-left: 13px;
+  padding-top: 11px;
+  padding-left: 10px;
+  font-size: large;
 }
 
 .fa-info-circle{
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 10px;
+  font-size: large;
 }
 
 /* Main */
