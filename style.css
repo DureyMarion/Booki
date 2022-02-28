@@ -215,14 +215,16 @@ i{
   margin-left: 120px;
 }
 
-img{
+.petite-image{
   border-radius: 10px;
-  object-fit: contain;
+  object-fit: cover;
+  max-height: 100px;
 }
 
-.img-vertical{
-  max-height: 50%;
+.grande-image{
+  border-radius: 10px;
   object-fit: cover;
+  max-height: 170px;
 }
 
 .les-plus-populaires{
