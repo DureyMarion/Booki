@@ -114,6 +114,14 @@ i{
   border: solid 1px gray;
   max-width: 20px;
   max-height: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.p-icon{
+  margin-top: 20px;
+  padding-left: 7px;
 }
 
 .bleu-ciel{
@@ -303,25 +311,22 @@ div.gallery {
   
 div.gallery img {
   border-radius: 25px;
-  padding: 3px;
   width: 100%;
   height: auto;
 }
 
 div.gallery1 img{
-  width: 30%;
+  width: 130px;
   height: 90%;
   object-fit: cover;
 }
 
 div.gallery2 img{
-  width: 70%;
   height: 50%;
   object-fit: cover;
 }
   
 div.gallery3 img{
-  width: 70%;
   height: 50%;
   object-fit: cover;
 }
