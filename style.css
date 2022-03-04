@@ -104,12 +104,23 @@ i{
   min-height: 40px;
 }
 
+.border-cercle{
+  border-radius: 100%;
+  border: solid 1px gray;
+  max-width: 20px;
+  max-height: 20px;
+}
+
 .bleu-ciel{
   background-color: rgb(221, 235, 250);
 }
 
 .flex{
   display: flex;
+}
+
+.space-between{
+  justify-content: space-between;
 }
 
 .btn-color{
@@ -125,15 +136,13 @@ i{
 .filter-button{
   border: solid 2px #dfdede;
   border-radius: 25px;
-  min-width: 180px;
   min-height: 40px;
   margin-top: 12px;
   margin-left: 10px;
 }
 
 .filter-text{
-  margin-left: 10px;
-  margin-top: 10px;
+  margin: 10px;
   font-weight: bold;
   font-size: 14px;
 }
