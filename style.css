@@ -321,7 +321,12 @@ i{
   align-items: center;
 }
 
+.container{
+  width: 100%;
+}
+
 div.gallery {
+  width: 100%;
   background-color: white;
   border: 1px solid rgb(237, 237, 237);
   border-radius: 25px;
