@@ -335,6 +335,7 @@ div.gallery1 img{
 
 div.gallery2 img{
   height: 60%;
+  width: 673px;
   padding: 3px;
   object-fit: cover;
   border-radius: 25px 25px 0px 0px;
@@ -344,6 +345,7 @@ div.gallery3 img{
   height: 70%;
   object-fit: cover;
   border-radius: 25px 25px 0px 0px;
+  margin-bottom: 15px;
 }
 
 div.desc {
