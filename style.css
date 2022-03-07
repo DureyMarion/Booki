@@ -372,7 +372,12 @@ main{
   flex-wrap: wrap;
 }
 
-.flex-container > div {
+.flex-container1 > div {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.flex-container2 > div {
   margin: 10px;
   font-size: 20px;
   height: 200px;
