@@ -77,8 +77,8 @@ a{
 
 a:hover{
   width: 50%;
-  border-bottom: 4px solid blue;
-  color: blue;
+  border-bottom: 3px solid rgb(38, 117, 236);
+  color: rgb(38, 117, 236);
 }
 
 .p-left{
