@@ -162,7 +162,7 @@ i{
 }
 
 .icon-map{
-  background-color: #c9c4c4;
+  background-color: #eceaea;
   height: 40px;
   width: 40px;
   border-radius: 10px;
@@ -173,7 +173,7 @@ i{
   justify-content: center;
   align-items: center;
   margin: auto;
-  border: solid 2px #dfdede;
+  border: solid 1px #eceaea;
   border-radius: 15px;
   width: 250px;
   height: 40px;
