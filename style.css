@@ -320,12 +320,12 @@ div.gallery {
 }
   
 div.gallery img {
-  border-radius: 25px;
   width: 100%;
   height: auto;
 }
 
 div.gallery1 img{
+  border-radius: 25px;
   width: 130px;
   height: 90%;
   object-fit: cover;
@@ -334,11 +334,13 @@ div.gallery1 img{
 div.gallery2 img{
   height: 50%;
   object-fit: cover;
+  border-radius: 25px 25px 0px 0px;
 }
   
 div.gallery3 img{
   height: 60%;
   object-fit: cover;
+  border-radius: 25px 25px 0px 0px;
 }
 
 div.desc {
@@ -362,6 +364,7 @@ main{
   margin: 10px;
   padding: 3px;
   font-size: 20px;
+  height: 200px;
 }
 
 img.petite-image{
