@@ -192,6 +192,10 @@ i{
   color: white;
 }
 
+.title-more-popular{
+  font-size: 24px;
+}
+
 .fa-map-marker-alt{
   display: flex;
   font-size: large;
