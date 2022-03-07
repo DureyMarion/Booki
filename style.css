@@ -265,12 +265,6 @@ i{
   font-size: x-large;
 }
 
-.petite-image{
-  border-radius: 10px;
-  object-fit: cover;
-  max-height: 100px;
-}
-
 .grande-image{
   border-radius: 10px 40px 40px 10px;
   object-fit: cover;
