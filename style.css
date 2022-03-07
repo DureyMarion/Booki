@@ -86,7 +86,6 @@ i{
 }
 
 .marseille-france{
-  border-block: none;
   margin-left: 17px;
 }
 
@@ -112,12 +111,12 @@ i{
 
 .border-cercle{
   border-radius: 100%;
-  border: solid 1px gray;
-  max-width: 20px;
-  max-height: 20px;
+  border: solid 1px #cdcbcb;
+  width: 20px;
+  height: 20px;
   margin-left: 10px;
   margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .p-icon{
