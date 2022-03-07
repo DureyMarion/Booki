@@ -340,13 +340,13 @@ div.gallery2 img{
 }
   
 div.gallery3 img{
-  height: 60%;
+  height: 70%;
   object-fit: cover;
   border-radius: 25px 25px 0px 0px;
 }
 
 div.desc {
-  padding: 10px;
+  padding-left: 17px;
   text-align: left;
 }
 
