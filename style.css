@@ -201,7 +201,8 @@ i{
 .fa-search{
   display: flex;
   font-size: large;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  margin-left: 13px;
 }
 
 .fa-money-bill-wave{
