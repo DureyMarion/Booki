@@ -163,7 +163,9 @@ i{
 
 .icon-map{
   background-color: #c9c4c4;
-  border-radius: 15px;
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
 }
 
 .barre-recherche{
@@ -199,8 +201,9 @@ i{
 
 .fa-map-marker-alt{
   display: flex;
+  justify-content: center;
+  padding-top: 10px;
   font-size: large;
-  margin-left: 17px;
 }
 
 .fa-search{
