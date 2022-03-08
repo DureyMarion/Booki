@@ -167,6 +167,8 @@ i{
 }
 
 .filter-text{
+  display: flex;
+  align-items: center;
   margin: 10px;
   font-weight: bold;
   font-size: 14px;
@@ -486,5 +488,76 @@ div.footer-item{
   a:hover{
     border-top: 3px solid rgb(38, 117, 236);
     color: rgb(38, 117, 236);
+  }
+  .p-left{
+    margin-left: 20px;
+  }
+  .marseille-france{
+    margin-left: 13px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 16px;
+    color:black;
+  }
+  .title-filter{
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .border-cercle{
+    border-radius: 100%;
+    border: solid 1px #cdcbcb;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+  .flex{
+    display: flex;
+  }
+  .space-between{
+    justify-content: space-between;
+  }
+  .btn-color{
+    background-color: white;
+    border-radius: 30px;
+  }
+  .btn-color:hover{
+    background-color: lightgrey;
+    border-radius: 25px;
+  }
+  .filter-button{
+    border: solid 2px #cdcbcb;
+    border-radius: 25px;
+    min-height: 40px;
+    margin-top: 12px;
+    margin-left: 10px;
+  }
+  .filter-text{
+    font-size: 12px;
+  }
+  .barre-recherche{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+    border: solid 1px #eceaea;
+    border-radius: 15px;
+    width: 300px;
+    height: 40px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+  .btn-recherche{
+    background-color: rgb(38, 117, 236);
+    border: solid 1px rgb(38, 117, 236);
+    border-radius: 0px 15px 15px 0px;
+    width: 80px;
+    height: 40px;
+    margin-left: 20px;
+    margin-bottom: 3px;
   }
 }
