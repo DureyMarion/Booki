@@ -206,7 +206,10 @@ i{
 
 #input-text{
   color: white;
-  font-size: 14px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
 }
 
 .title-more-popular{
@@ -547,7 +550,7 @@ div.footer-item{
     margin: auto;
     border: solid 1px #eceaea;
     border-radius: 15px;
-    width: 300px;
+    width: 310px;
     height: 40px;
     margin-top: 25px;
     margin-bottom: 15px;
@@ -556,7 +559,7 @@ div.footer-item{
     background-color: rgb(38, 117, 236);
     border: solid 1px rgb(38, 117, 236);
     border-radius: 0px 15px 15px 0px;
-    width: 80px;
+    width: 90px;
     height: 40px;
     margin-left: 20px;
     margin-bottom: 3px;
