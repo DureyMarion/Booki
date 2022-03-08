@@ -478,11 +478,11 @@ div.footer-item{
   li.page-active{
     border-top: 3px solid rgb(38, 117, 236);
     border-bottom: none;
-    padding-top: 10px;
+    padding-top: 40px;
     color: rgb(38, 117, 236);
   }
   li.page2{
-    padding-top: 10px;
+    padding-top: 40px;
     border-bottom: none;
   }
   a{
@@ -510,32 +510,7 @@ div.footer-item{
     margin-top: 10px;
     margin-left: 10px;
   }
-  .border-cercle{
-    border-radius: 100%;
-    border: solid 1px #cdcbcb;
-    width: 20px;
-    height: 20px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-    margin-top: 15px;
-  }
-  .flex{
-    display: flex;
-  }
-  .space-between{
-    justify-content: space-between;
-  }
-  .btn-color{
-    background-color: white;
-    border-radius: 30px;
-  }
-  .btn-color:hover{
-    background-color: lightgrey;
-    border-radius: 25px;
-  }
   .filter-button{
-    border: solid 2px #cdcbcb;
-    border-radius: 25px;
     min-height: 40px;
     margin-top: 12px;
     margin-left: 10px;
@@ -546,20 +521,13 @@ div.footer-item{
   .barre-recherche{
     display: flex;
     justify-content: flex-start;
-    margin: auto;
-    border: solid 1px #eceaea;
     border-radius: 15px;
     width: 310px;
-    height: 40px;
-    margin-top: 25px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
   .btn-recherche{
-    background-color: rgb(38, 117, 236);
-    border: solid 1px rgb(38, 117, 236);
     border-radius: 0px 15px 15px 0px;
     width: 90px;
-    height: 40px;
     margin-left: 20px;
     margin-bottom: 3px;
   }
