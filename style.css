@@ -447,50 +447,35 @@ div.footer-item{
   }
 }
 
-@media screen and (min-width: 993) {
+@media screen and (min-width: 993px) {
   .logo-booki{
     display: flex;
     align-items: left;
-    max-width: 20%;
-    padding: 20px;
+    max-width: 10%;
+    padding: 30px;
     padding-bottom: 40px;
   }
   nav{
     display: flex;
     flex-flow: row;
     align-items: right;
-    width: 100%;
+    width: 50%;
   }
   nav ul{
     display: flex;
-    align-items: center;
+    align-items: right;
     list-style: none;
     font-size: 16px;
     font-weight: initial;
-    width: 100%;
   }
   nav li{
     margin: 0 60px 0 60px;
-    width: 50%;
   }
   li.page-active{
-    border-bottom: 3px solid rgb(38, 117, 236);
-    padding-bottom: 10px;
     color: rgb(38, 117, 236);
-    width: 50%;
-  }
-  li.page2{
-    border-bottom: 3px solid rgb(236, 236, 236);
-    padding-bottom: 10px;
-    width: 50%;
   }
   a{
     text-decoration: none;
     color: black;
-  }
-  a:hover{
-    width: 50%;
-    border-bottom: 3px solid rgb(38, 117, 236);
-    color: rgb(38, 117, 236);
   }
 }
