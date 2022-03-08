@@ -429,6 +429,8 @@ div.footer-item{
   padding-bottom: 10px;
 }
 
+/* Media queries */
+
 #input-text{
   visibility: visible;
 }
