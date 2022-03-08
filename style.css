@@ -457,13 +457,12 @@ div.footer-item{
   }
   nav{
     display: flex;
-    flex-flow: row;
+    flex-direction: row;
     align-items: right;
-    width: 50%;
   }
   nav ul{
     display: flex;
-    align-items: right;
+    justify-content: flex-end;
     list-style: none;
     font-size: 16px;
     font-weight: initial;
@@ -472,10 +471,20 @@ div.footer-item{
     margin: 0 60px 0 60px;
   }
   li.page-active{
+    border-top: 3px solid rgb(38, 117, 236);
+    padding-top: 10px;
     color: rgb(38, 117, 236);
+  }
+  li.page2{
+    border-top: 3px solid rgb(236, 236, 236);
+    padding-top: 10px;
   }
   a{
     text-decoration: none;
     color: black;
+  }
+  a:hover{
+    border-top: 3px solid rgb(38, 117, 236);
+    color: rgb(38, 117, 236);
   }
 }
