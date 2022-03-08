@@ -54,7 +54,6 @@ nav ul{
 }
 
 nav li{
-  margin: 0 60px 0 60px;
   width: 50%;
 }
 
@@ -474,16 +473,17 @@ div.footer-item{
     font-weight: initial;
   }
   nav li{
-    margin: 0 60px 0 60px;
+    margin: 0 80px 0 80px;
   }
   li.page-active{
     border-top: 3px solid rgb(38, 117, 236);
+    border-bottom: none;
     padding-top: 10px;
     color: rgb(38, 117, 236);
   }
   li.page2{
-    border-top: 3px solid rgb(236, 236, 236);
     padding-top: 10px;
+    border-bottom: none;
   }
   a{
     text-decoration: none;
@@ -546,7 +546,6 @@ div.footer-item{
   .barre-recherche{
     display: flex;
     justify-content: flex-start;
-    align-items: center;
     margin: auto;
     border: solid 1px #eceaea;
     border-radius: 15px;
