@@ -291,6 +291,7 @@ i{
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 10px;
 }
 
 .hebergement-a-marseille{
@@ -299,10 +300,11 @@ i{
   width: 100%;
 }
 
-.hebergements-marseille{
+#hebergements-marseille{
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 10px;
 }
 
 .lien-voir-plus{
@@ -351,7 +353,6 @@ div.gallery1 img{
 
 div.gallery2 img{
   height: 60%;
-  padding: 3px;
   object-fit: cover;
   border-radius: 25px 25px 0px 0px;
 }
@@ -389,14 +390,15 @@ main{
 }
 
 .flex-container1 > div {
-  margin: 10px;
+  margin: 10px 0;
   font-size: 20px;
 }
 
 .flex-container2 > div {
-  margin: 10px;
+  margin: 10px 0;
   font-size: 20px;
   height: 200px;
+  padding: 3px;
 }
 
 
