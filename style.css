@@ -266,7 +266,7 @@ i{
 
 /* Main */
 
-.fa-solid .fa-chart-line-up{
+.fa-chart-line{
   font-size: x-large;
 }
 
@@ -465,14 +465,16 @@ div.footer-item{
   nav{
     display: flex;
     flex-direction: row;
-    align-items: right;
+    justify-content: space-between;
   }
   nav ul{
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
     list-style: none;
     font-size: 16px;
     font-weight: initial;
+    width: initial;
   }
   nav li{
     margin: 0 80px 0 80px;
