@@ -225,9 +225,8 @@ i{
 
 .fa-search{
   display: flex;
+  justify-content: center;
   font-size: large;
-  margin-bottom: 25px;
-  margin-left: 10px;
 }
 
 .fa-money-bill-wave{
