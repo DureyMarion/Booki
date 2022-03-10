@@ -401,6 +401,12 @@ main{
   padding: 3px;
 }
 
+.flex-container3 > div {
+  margin: 10px 0;
+  font-size: 20px;
+  height: 200px;
+  width: 450px;
+}
 
 /* Footer */
 footer{
