@@ -461,6 +461,8 @@ div.footer-item{
 }
 
 @media screen and (min-width: 993px) {
+  /* header */ 
+  /* Menu */
   .logo-booki{
     display: flex;
     align-items: left;
@@ -501,6 +503,7 @@ div.footer-item{
   a{
     text-decoration: none;
   }
+  /* Fin menu */
   .p-left{
     margin-left: 20px;
   }
@@ -526,7 +529,6 @@ div.footer-item{
     padding-left: 20px;
     padding-bottom: 10px;
   }
-
   .filter-text{
     font-size: 12px;
   }
@@ -547,6 +549,8 @@ div.footer-item{
     margin-left: 25px;
     margin-bottom: 40px;
   }
+  /* Fin Header */
+  /* Main */
   .hebergement-a-marseille{
     background-color:rgb(243, 241, 241);
     display: flex;
