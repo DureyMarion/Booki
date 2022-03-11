@@ -556,12 +556,14 @@ div.footer-item{
   }
   /* Fin Header */
   /* Main */
+  /* Section 1 */
   .hebergement-a-marseille{
     background-color:rgb(243, 241, 241);
     display: flex;
     width: 70%;
     border-radius: 25px;
   }
+  /* Section 2 */
   .les-plus-populaires{
     float: right;
     border-radius: 20px;
