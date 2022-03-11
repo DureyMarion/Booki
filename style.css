@@ -569,11 +569,14 @@ div.footer-item{
     display: flex;
     flex-direction: row;
     justify-content: left;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-left: 5px;
   }
   .item1{
     width: 33%;
+  }
+  .footer-item h3{
+    padding-bottom: 20px;
   }
   .item2{
     width: 33%;
