@@ -563,6 +563,15 @@ div.footer-item{
     width: 70%;
     border-radius: 25px;
   }
+  .flex-container2 > div {
+    width: 300px;
+  }
+  #hebergements-marseille{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+  }
   /* Section 2 */
   .les-plus-populaires{
     float: right;
