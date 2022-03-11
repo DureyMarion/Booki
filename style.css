@@ -572,6 +572,10 @@ div.footer-item{
     align-items: center;
     width: 70%;
   }
+  .ligne3{
+    display: flex;
+    flex-direction: row;
+  }
   /* Section 2 */
   .les-plus-populaires{
     float: right;
