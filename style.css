@@ -520,15 +520,14 @@ div.footer-item{
   .title-filter{
     display: flex;
     justify-content: flex-start;
-    text-align: left;
-    margin-top: 10px;
-    margin-left: 10px;
+    padding-top: 10px;
   }
-  .filter-button{
-    min-height: 40px;
-    margin-top: 12px;
-    margin-left: 10px;
+  .filtres-entier{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
   }
+
   .filter-text{
     font-size: 12px;
   }
