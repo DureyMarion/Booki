@@ -461,6 +461,11 @@ div.footer-item{
 }
 
 @media screen and (min-width: 993px) {
+  /* Général */
+  h2{
+    font-size: 18px;
+  }
+  
   /* header */ 
   /* Menu */
   .logo-booki{
@@ -561,6 +566,12 @@ div.footer-item{
     float: right;
     border-radius: 20px;
     width: 25%;
+  }
+  .title-more-popular{
+    font-size: 18px;
+  }
+  .fa-chart-line{
+    font-size: medium;
   }
   /* Fin Main */
   /* Footer*/
