@@ -500,14 +500,12 @@ div.footer-item{
   }
   a{
     text-decoration: none;
-    color: black;
-  }
-  a:hover{
-    border-top: 3px solid rgb(38, 117, 236);
-    color: rgb(38, 117, 236);
   }
   .p-left{
     margin-left: 20px;
+  }
+  h2{
+    padding: 10px 20px;
   }
   .marseille-france{
     margin-left: 13px;
@@ -525,6 +523,8 @@ div.footer-item{
     display: flex;
     justify-content: flex-start;
     align-content: center;
+    padding-left: 20px;
+    padding-bottom: 10px;
   }
 
   .filter-text{
@@ -543,4 +543,9 @@ div.footer-item{
     margin-top: 3px;
     margin-bottom: 3px;
   }
+  .border-cercle{
+    margin-left: 25px;
+    margin-bottom: 40px;
+  }
+  
 }
