@@ -547,5 +547,15 @@ div.footer-item{
     margin-left: 25px;
     margin-bottom: 40px;
   }
-  
+  .hebergement-a-marseille{
+    background-color:rgb(243, 241, 241);
+    display: flex;
+    width: 70%;
+    border-radius: 25px;
+  }
+  .les-plus-populaires{
+    float: right;
+    border-radius: 20px;
+    width: 25%;
+  }
 }
