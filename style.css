@@ -201,7 +201,6 @@ i{
   width: 40px;
   height: 41px;
   margin-left: 20px;
-  margin-bottom: 3px;
 }
 
 #input-text{
@@ -542,5 +541,6 @@ div.footer-item{
     border-radius: 0px 15px 15px 0px;
     width: 90px;
     margin-top: 3px;
+    margin-bottom: 3px;
   }
 }
