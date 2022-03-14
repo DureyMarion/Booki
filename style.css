@@ -603,6 +603,12 @@ div.footer-item{
     display: flex;
     width: 50%;
   }
+  .width50{
+    width: 50%;
+  }
+  .width25{
+    width: 25%;
+  }
   /* Fin Main */
   /* Footer*/
   div.footer-item{
