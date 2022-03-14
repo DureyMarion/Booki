@@ -510,10 +510,10 @@ div.footer-item{
   }
   /* Fin menu */
   .p-left{
-    margin-left: 20px;
+    margin-left: 50px;
   }
   h2{
-    padding: 10px 20px;
+    padding: 10px 50px;
   }
   .marseille-france{
     margin-left: 13px;
@@ -551,7 +551,7 @@ div.footer-item{
     margin-bottom: 3px;
   }
   .border-cercle{
-    margin-left: 25px;
+    margin-left: 55px;
     margin-bottom: 40px;
   }
   /* Fin Header */
@@ -596,7 +596,7 @@ div.footer-item{
     flex-direction: row;
     justify-content: left;
     padding-top: 20px;
-    padding-left: 5px;
+    padding-left: 50px;
   }
   .item1{
     width: 33%;
