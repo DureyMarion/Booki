@@ -584,6 +584,9 @@ div.footer-item{
   .flex-container2 > div {
     width: 100%;
   }
+  .flex-container2{
+    margin: 0 10px;
+  }
   .container{
     display: flex;
     flex-direction: row;
