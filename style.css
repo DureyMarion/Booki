@@ -488,6 +488,7 @@ div.footer-item{
     font-size: 16px;
     font-weight: initial;
     width: initial;
+    padding-right: 20px;
   }
   nav li{
     margin: 0 30px 0 30px;
@@ -502,11 +503,18 @@ div.footer-item{
   li.page2{
     padding-top: 40px;
     border-bottom: none;
-    padding-right: 20px;
     font-size: 14px;
   }
   a{
     text-decoration: none;
+  }
+  .page2:hover{
+    width: 50%;
+    border-top: 3px solid rgb(38, 117, 236);
+    color: rgb(38, 117, 236);
+  }
+  a:hover{
+    border-bottom: none;
   }
   /* Fin menu */
   .p-left{
@@ -557,8 +565,15 @@ div.footer-item{
   .padding50{
     padding: 0 50px;
   }
+  .flex-desktop{
+    display: flex;
+  }
   /* Fin Header */
   /* Main */
+  main{
+    max-width: initial;
+    padding: 0 50px;
+  }
   /* Section 1 */
   .hebergement-a-marseille{
     background-color:rgb(243, 241, 241);
