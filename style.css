@@ -584,12 +584,7 @@ div.footer-item{
   .flex-container2 > div {
     width: 300px;
   }
-  #hebergements-marseille{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 70%;
-  }
+
 .container{
   display: flex;
   flex-direction: row;
