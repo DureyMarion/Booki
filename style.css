@@ -585,6 +585,7 @@ div.footer-item{
     width: 100%;
   }
   .flex-container2{
+    width: 33%;
     margin: 0 10px;
   }
   .container{
@@ -604,8 +605,17 @@ div.footer-item{
   .fa-chart-line{
     font-size: medium;
   }
-
+  div.gallery1 img{
+    max-height: initial;
+  }
+ 
   /* Section 3 */
+  .lieu-activité{
+    flex-direction: row;
+  }
+  .width-full{
+    width: 100%;
+  }
   .bloc1{
     display: flex;
     width: 50%;
@@ -616,9 +626,6 @@ div.footer-item{
   }
   .width50{
     width: 50%;
-  }
-  .width25{
-    width: 25%;
   }
   /* Fin Main */
   /* Footer*/
