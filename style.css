@@ -463,7 +463,7 @@ div.footer-item{
 @media screen and (min-width: 993px) {
   /* Général */
   h2{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     padding: 10px 10px;
     padding-top: 25px;
@@ -471,7 +471,7 @@ div.footer-item{
   }
   
   h3{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
   }
   
@@ -590,6 +590,9 @@ div.footer-item{
     padding: 0 50px;
   }
   /* Section 1 */
+  #hebergements-marseille{
+    padding: 0 20px;
+  }
   .hebergement-a-marseille{
     background-color:rgb(243, 241, 241);
     display: flex;
@@ -624,8 +627,14 @@ div.footer-item{
     font-size: medium;
   }
   div.gallery1 img{
-    height: 141px;
+    height: 150px;
     max-height: none;
+  }
+  .classement-etoile {
+    margin-top: 47px;
+  }
+  .prix{
+    padding-top: 7px;
   }
  
   /* Section 3 */
@@ -640,6 +649,9 @@ div.footer-item{
     width: 50%;
     padding-right: 10px;
     margin-left: 10px;
+  }
+  div.gallery3 img{
+    height: 70%;
   }
   .bloc2{
     display: flex;
