@@ -654,8 +654,8 @@ div.footer-item{
   div.gallery3 img{
     height: 70%;
   }
-  .big-picture{
-    height: calc(100% - 28px)
+  .flex-container2 > div {
+    height: 100%;
   }
   .bloc2{
     display: flex;
