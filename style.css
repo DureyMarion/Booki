@@ -651,8 +651,12 @@ div.footer-item{
     margin-left: 10px;
     margin-bottom: 50px;
   }
-  .flex-container2 > div {
+  .h-full > div {
     height: 100%;
+  }
+  .reset-margin-padding{
+    margin: 0;
+    padding: 0;
   }
   .bloc2{
     display: flex;
