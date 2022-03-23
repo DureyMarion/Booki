@@ -456,7 +456,7 @@ div.footer-item{
 
 @media screen and (max-width: 992px) {
   #input-text{
-    visibility: hidden;
+    display: none;
   }
   #input-icon{
     visibility: visible;
