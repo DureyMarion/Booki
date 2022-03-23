@@ -651,9 +651,6 @@ div.footer-item{
     margin-left: 10px;
     margin-bottom: 50px;
   }
-  div.gallery3 img{
-    height: 70%;
-  }
   .flex-container2 > div {
     height: 100%;
   }
@@ -666,6 +663,9 @@ div.footer-item{
   }
   .width50{
     width: 50%;
+  }
+  .grande-image{
+    height: 100%;
   }
   .plus-grande{
     max-height: none;
