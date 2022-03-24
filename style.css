@@ -76,7 +76,6 @@ a{
 }
 
 a:hover{
-  width: 50%;
   border-bottom: 3px solid rgb(38, 117, 236);
   color: rgb(38, 117, 236);
 }
@@ -431,6 +430,10 @@ div.footer-item{
   padding-bottom: 12px;
 }
 
+.item1{
+  margin-top: 20px;
+}
+
 .footer-item ul{
   text-align: left;
   display: flex;
@@ -691,6 +694,7 @@ div.footer-item{
   }
   .item1{
     width: 33%;
+    margin-top: 0;
   }
   .footer-item h3{
     padding-bottom: 20px;
