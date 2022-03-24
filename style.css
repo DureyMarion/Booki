@@ -659,7 +659,6 @@ div.footer-item{
     display: flex;
     width: 50%;
     padding-right: 20px;
-    margin-left: 10px;
     margin-bottom: 50px;
   }
   .h-full > div {
@@ -675,7 +674,7 @@ div.footer-item{
     display: flex;
     width: 50%;
     padding-left: 20px;
-    margin-right: 50px;
+    margin-right: 16px;
     margin-bottom: 50px;
   }
   .width50{
