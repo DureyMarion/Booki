@@ -225,6 +225,7 @@ i{
   display: flex;
   justify-content: center;
   font-size: large;
+  padding-top: 3px;
 }
 
 .fa-money-bill-wave{
