@@ -510,7 +510,7 @@ div.footer-item{
   .logo-booki{
     display: flex;
     align-items: left;
-    max-width: 7%;
+    width: 7%;
     padding: 40px;
     padding-bottom: 40px;
   }
@@ -535,12 +535,12 @@ div.footer-item{
   li.page-active{
     border-top: 3px solid rgb(38, 117, 236);
     border-bottom: none;
-    padding-top: 40px;
+    padding-top: 30px;
     color: rgb(38, 117, 236);
     font-size: 14px;
   }
   li.page2{
-    padding-top: 40px;
+    padding-top: 30px;
     border-bottom: none;
     font-size: 14px;
   }
