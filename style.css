@@ -734,6 +734,9 @@ div.footer-item{
   .container {
     flex-direction: column;
   }
+  .flex-container2 {
+    width: initial;
+  }
 }
 
 @media screen and (min-width: 629px) and (max-width: 1230px) {
