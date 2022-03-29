@@ -644,6 +644,7 @@ div.footer-item{
     float: right;
     border-radius: 20px;
     width: 100%;
+    margin-bottom: 30px;
   }
   .title-more-popular{
     font-size: 18px;
