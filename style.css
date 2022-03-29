@@ -381,6 +381,10 @@ div.gallery3 img{
 }
 
 div.desc {
+  padding-left: 12px;
+  text-align: left;
+}
+div.desc2 {
   padding-left: 17px;
   text-align: left;
 }
