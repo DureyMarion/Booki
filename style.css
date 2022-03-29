@@ -328,6 +328,7 @@ i{
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 20px;
 }
 
 .container{
@@ -651,6 +652,7 @@ div.footer-item{
   /* Section 3 */
   .lieu-activité{
     flex-direction: row;
+    padding-bottom: 0;
   }
   .width-full{
     width: 100%;
