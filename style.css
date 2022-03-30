@@ -424,6 +424,13 @@ main{
   height: 200px;
   width: 100%;
 }
+.bloc1{
+  width: 100%;
+}
+
+.bloc2{
+  width: 100%;
+}
 
 /* Footer */
 footer{
