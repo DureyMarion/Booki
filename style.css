@@ -414,7 +414,6 @@ main{
   margin: 10px 0;
   font-size: 20px;
   height: 200px;
-  padding: 3px;
   width: 100%;
 }
 
@@ -432,6 +431,13 @@ main{
   width: 100%;
 }
 
+.bloc1 > article{
+  margin: 0 10px;
+}
+
+.bloc2 > article{
+  margin: 0 10px;
+}
 /* Footer */
 footer{
   background:rgb(243, 241, 241);
@@ -747,6 +753,19 @@ div.footer-item{
   }
   .flex-container2 {
     width: initial;
+  }
+  .lieu-activité{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .bloc1{
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
+  .bloc2{
+    flex-direction: column;
+    align-items: center;
   }
 }
 
