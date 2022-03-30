@@ -724,7 +724,7 @@ div.footer-item{
   }
   .plus-grande{
     max-height: none;
-    height: calc(100% - 60px);
+    height: 87% !important;
   }
   /* Fin Main */
   /* Footer*/
@@ -762,11 +762,24 @@ div.footer-item{
   .bloc1{
     flex-direction: column;
     align-items: center;
-    max-width: 100%;
+    width: 100% !important;
   }
   .bloc2{
     flex-direction: column;
     align-items: center;
+    width: 100% !important;
+  }
+  .bloc1 > article {
+    width: 100% !important;
+  }
+  .bloc2 > article {
+    width: 100% !important;
+  }
+  .width50{
+    width: 100% !important;
+  }
+  .plus-grande{
+    height: 170px !important;
   }
 }
 
