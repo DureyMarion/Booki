@@ -431,8 +431,6 @@ main{
   width: 100%;
 }
 
-
-
 .bloc1 > * {
   margin: 0 10px;
 }
@@ -1000,7 +998,7 @@ div.footer-item{
   }
   .plus-grande{
     max-height: none;
-    height: calc(100% - 60px);
+    height: 87% !important;
   }
   /* Fin Main */
   /* Footer*/
