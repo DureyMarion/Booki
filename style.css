@@ -438,6 +438,7 @@ main{
 .bloc2 > article{
   margin: 0 10px;
 }
+
 /* Footer */
 footer{
   background:rgb(243, 241, 241);
@@ -929,7 +930,7 @@ div.footer-item{
     justify-content: space-around;
   }
   .lien-voir-plus{
-    margin: 10px 50px;
+    margin: 17px 50px;
   }
   /* Section 2 */
   .les-plus-populaires{
