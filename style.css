@@ -431,11 +431,13 @@ main{
   width: 100%;
 }
 
-.bloc1 > article{
+
+
+.bloc1 > * {
   margin: 0 10px;
 }
 
-.bloc2 > article{
+.bloc2 > * {
   margin: 0 10px;
 }
 
