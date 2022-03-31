@@ -277,6 +277,7 @@ i{
 /* Section 1 */
 .fa-chart-line{
   font-size: x-large;
+  padding: 25px 20px 0 0;
 }
 
 .grande-image{
@@ -627,6 +628,9 @@ div.footer-item{
   .flex-desktop{
     display: flex;
   }
+  .fa-chart-line {
+    padding: 40px 40px 0 0;
+  }
   /* Fin Header */
   /* Main */
   main{
@@ -920,6 +924,9 @@ div.footer-item{
   }
   .flex-desktop{
     display: flex;
+  }
+  .fa-chart-line {
+    padding: 40px 20px 0 0;
   }
   /* Fin Header */
   /* Main */
