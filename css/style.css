@@ -755,6 +755,10 @@ div.footer-item{
   .flex-container2 {
     width: initial;
   }
+  .flex-container2 > div {
+    margin: 0;
+    margin-bottom: 20px;
+  }
   .lieu-activité{
     flex-direction: column;
     justify-content: center;
@@ -763,6 +767,7 @@ div.footer-item{
     flex-direction: column;
     align-items: center;
     width: 100% !important;
+    margin-bottom: 0;
   }
   .bloc2{
     flex-direction: column;
