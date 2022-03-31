@@ -769,6 +769,7 @@ div.footer-item{
     align-items: center;
     width: 100% !important;
     margin-bottom: 0;
+    padding-right: 0;
   }
   .bloc2{
     flex-direction: column;
