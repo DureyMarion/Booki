@@ -571,7 +571,7 @@ div.footer-item{
 
   .logo-booki{
     display: flex;
-    align-items: left;
+    align-content: left;
     width: 7%;
     padding: 40px;
     padding-bottom: 40px;
@@ -955,7 +955,7 @@ div.footer-item{
 
   .logo-booki{
     display: flex;
-    align-items: left;
+    align-content: left;
     max-width: 7%;
     padding: 40px;
     padding-bottom: 40px;
