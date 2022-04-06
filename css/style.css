@@ -520,18 +520,30 @@ div.footer-item{
 #input-text{
   visibility: visible;
 }
+
 #input-icon{
   visibility: hidden;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 767px) {
   #input-text{
     display: none;
   }
+
   #input-icon{
     visibility: visible;
   }
+
+  article > .gallery{
+    width: 94%;
+    margin: 0 15px;
+  }
+
+  article > .gallery > .grande-image{
+    height: 150px !important;
+  }
 }
+
 
 /* Fin Media Query */
 
@@ -542,7 +554,7 @@ div.footer-item{
 
 /* Version tablette */
 
-@media screen and (min-width: 501px) and (max-width: 1230px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
    
   /* Général */
 
@@ -767,10 +779,6 @@ div.footer-item{
     margin-top: 60px;
   }
   
-  .classement-etoile2{
-    margin-top: 40px;
-  }
-  
   .prix{
     padding-top: 7px;
   }
@@ -914,12 +922,6 @@ div.footer-item{
   }
 }
 
-@media screen and (min-width: 629px) and (max-width: 1230px) {
-  
-  .classement-etoile2{
-    margin-top: 60px;
-  }
-}
 /* Fin Media Query */
 
 /* Fin version tablette */
@@ -928,7 +930,7 @@ div.footer-item{
 
 /* Version ordinateur */
 
-@media screen and (min-width: 1231px) {
+@media screen and (min-width: 992px) {
   
   /* Général */
 
@@ -1148,10 +1150,6 @@ div.footer-item{
   }
   
   .classement-etoile {
-    margin-top: 20px;
-  }
-  
-  .classement-etoile2{
     margin-top: 20px;
   }
   
