@@ -28,7 +28,7 @@ h2{
 }
 
 h3{
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -534,12 +534,12 @@ div.footer-item{
     visibility: visible;
   }
 
-  article > .gallery{
+  article > .gallery3{
     width: 94%;
     margin: 0 15px;
   }
 
-  article > .gallery > .grande-image{
+  article > .gallery3 > .grande-image{
     height: 150px !important;
   }
 }
