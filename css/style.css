@@ -422,7 +422,6 @@ main{
   min-height:100%;
   margin:0 auto;
   position:relative;
-  width: 100%;
   overflow: hidden;
 }
 
@@ -459,11 +458,11 @@ main{
 }
 
 .bloc1 > * {
-  margin: 0 10px;
+  margin: 0 10px 7px 10px;
 }
 
 .bloc2 > * {
-  margin: 0 10px;
+  margin: 0 10px 7px 10px;
 }
 
 /* Fin Section 3 */
@@ -1097,6 +1096,10 @@ div.footer-item{
 
   /* Section 1 */
 
+  .title-hebergement{
+    padding-bottom: 12px;
+  }
+
   #hebergements-marseille{
     padding: 0 20px;
   }
@@ -1124,7 +1127,7 @@ div.footer-item{
   }
   
   .lien-voir-plus{
-    margin: 17px 50px;
+    margin: 11px 50px;
   }
 
   /* Fin Section 1 */
@@ -1241,6 +1244,39 @@ div.footer-item{
   }
 
   /* Fin footer */
+
+  /* Media query */
+
+  @media screen and (min-width: 992px) and (max-width: 1299px){
+   
+    .hebergement-a-marseille{
+      height: 625px;
+    }
+
+    .title-hebergement{
+      padding-bottom: 17px;
+    }
+
+  }
+
+  @media screen and (min-width: 992px) and (max-width: 1146px) {
+    
+    h3{
+      font-size: 14px;
+    }
+
+    .fa-star{
+      font-size: x-small;
+    }
+
+    .classement-etoile{
+      margin-top: 5px;
+    }
+
+    .prix{
+      padding-top: 0;
+    }
+  }
 }
 /* Fin version ordinateur */
 
