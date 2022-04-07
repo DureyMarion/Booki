@@ -90,7 +90,9 @@ a{
 
 a:hover{
   border-bottom: 3px solid #0065FC;
+  padding-bottom: 10px;
   color: #0065FC;
+  border-bottom-width: thick;
 }
 
 .p-left{
