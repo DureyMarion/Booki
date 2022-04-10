@@ -731,7 +731,7 @@ div.footer-item{
   }
   
   .hebergement-a-marseille{
-    background-color:rgb(243, 241, 241);
+    background-color: #F2F2F2;
     display: flex;
     width: 100%;
     border-radius: 25px;
@@ -1130,7 +1130,7 @@ div.footer-item{
   }
   
   .hebergement-a-marseille{
-    background-color:rgb(243, 241, 241);
+    background-color:#F2F2F2;
     display: flex;
     width: 70%;
     border-radius: 25px;
