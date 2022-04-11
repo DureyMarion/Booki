@@ -196,7 +196,7 @@ i{
   align-items: center;
   margin: 10px;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .icon-map{
@@ -672,7 +672,7 @@ a{
   .title-filter{
     display: flex;
     justify-content: flex-start;
-    padding-top: 10px;
+    padding-top: 13px;
   }
   
   .filtres-entier{
@@ -1071,7 +1071,7 @@ a{
   .title-filter{
     display: flex;
     justify-content: flex-start;
-    padding-top: 10px;
+    padding-top: 13px;
   }
  
   .filtres-entier{
@@ -1083,7 +1083,7 @@ a{
   }
   
   .filter-text{
-    font-size: 12px;
+    font-size: 15px;
   }
  
   .barre-recherche{
@@ -1298,8 +1298,12 @@ a{
 
   @media screen and (min-width: 992px) and (max-width: 1146px) {
     
-    h3{
+    h3, .filter-text{
       font-size: 14px;
+    }
+
+    .title-filter{
+      padding-top: 15px;
     }
 
     .fa-star{
