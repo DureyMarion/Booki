@@ -82,6 +82,7 @@ nav li{
 a{
   text-decoration: none;
   color: black;
+  font-weight: 400;
 }
 
 li.page-active{
@@ -265,10 +266,10 @@ i{
   font-size: large;
 }
 
-.fa-universal-access{
+.fa-child{
   display: flex;
   padding-top: 11px;
-  padding-left: 10px;
+  padding-left: 11px;
   font-size: large;
 }
 
@@ -373,6 +374,7 @@ i{
 
 .container{
   width: 100%;
+  padding-bottom: 15px;
 }
 
 div.gallery {
@@ -415,7 +417,8 @@ div.gallery3 img{
 
 div.desc {
   padding-left: 12px;
-  text-align: left;
+  text-align: left;    
+  padding-bottom: 10px;
 }
 div.desc2 {
   padding-left: 17px;
@@ -525,6 +528,7 @@ div.footer-item{
 a{
   text-decoration: none;
   color: black;
+  font-weight: 400;
 }
 
 /* Fin Footer */
@@ -754,6 +758,7 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-bottom: 15px;
   }
   
   .lien-voir-plus{
@@ -945,6 +950,7 @@ a{
 
   div.desc2{
     margin-bottom: 15px;
+    padding-bottom: 10px;
   }
 
   article > .gallery3{
@@ -1036,6 +1042,7 @@ a{
   a{
     text-decoration: none;
     color: black;
+    font-weight: 400;
   }
   
   .page2:hover, .page-active:hover{
@@ -1159,6 +1166,7 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-bottom: 15px;
   }
   
   .lien-voir-plus{
@@ -1192,9 +1200,9 @@ a{
   .classement-etoile {
     margin-top: 20px;
   }
-  
-  .prix{
-    padding-top: 7px;
+
+  .flex-container1{
+    padding-bottom: 30px;
   }
  
   /* Fin Section 2 */
