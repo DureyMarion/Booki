@@ -222,7 +222,7 @@ i{
 .btn-recherche{
   background-color: #0065FC;
   border: solid 1px #0065FC;
-  border-radius: 0px 15px 15px 0px;
+  border-radius: 15px 15px 15px 15px;
   width: 40px;
   height: 41px;
   margin-left: 20px;
