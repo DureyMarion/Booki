@@ -499,7 +499,8 @@ div.footer-item{
 
 .footer-item h3{
   text-align: left;
-  padding-bottom: 12px;
+  padding-bottom: 13px;
+  padding-top: 15px;
 }
 
 .item1{
@@ -518,7 +519,7 @@ div.footer-item{
 }
 
 .footer-item > div > ul > li{
-  margin-bottom: 10px;
+  margin-bottom: 13px;
 }
 
 a{
@@ -859,7 +860,7 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: left;
-    padding-top: 20px;
+    padding-top: 25px;
   }
 
   .item1{
@@ -868,7 +869,8 @@ a{
   }
 
   .footer-item h3{
-    padding-bottom: 20px;
+    padding-bottom: 13px;
+    padding-top: none;
   }
   
   .item2{
@@ -1264,7 +1266,7 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: left;
-    padding-top: 20px;
+    padding-top: 25px;
   }
   
   .item1{
@@ -1273,7 +1275,8 @@ a{
   }
   
   .footer-item h3{
-    padding-bottom: 20px;
+    padding-bottom: 13px;
+    padding-top: none;
   }
   
   .item2{
