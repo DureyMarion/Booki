@@ -97,9 +97,8 @@ li.page2{
   width: 50%;
 }
 
-a:hover{
+.page2:hover, .page-active:hover{
   border-bottom: 3px solid #0065FC;
-  padding-bottom: 10px;
   color: #0065FC;
 }
 
@@ -418,7 +417,6 @@ div.gallery3 img{
 div.desc {
   padding-left: 12px;
   text-align: left;    
-  padding-bottom: 10px;
 }
 div.desc2 {
   padding-left: 17px;
@@ -951,7 +949,6 @@ a{
 
   div.desc2{
     margin-bottom: 15px;
-    padding-bottom: 10px;
   }
 
   article > .gallery3{
@@ -1055,6 +1052,7 @@ a{
     width: 50%;
     border-top: 3px solid rgb(38, 117, 236);
     color: rgb(38, 117, 236);
+    border-bottom: none;
   }
   
   a:hover{
@@ -1152,6 +1150,14 @@ a{
     padding: 0 20px;
   }
   
+  div.gallery2{
+    height: 100%;
+  }
+
+  div.gallery2 img{
+    height: 72%;
+  }
+
   .hebergement-a-marseille{
     background-color:#F2F2F2;
     display: flex;
