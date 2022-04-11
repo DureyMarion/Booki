@@ -613,6 +613,7 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: initial;
   }
   
   nav ul{
@@ -1009,6 +1010,7 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: initial;
   }
   
   nav ul{
