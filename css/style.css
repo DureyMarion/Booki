@@ -422,6 +422,7 @@ div.gallery3 img{
 div.desc {
   padding-left: 12px;
   text-align: left;    
+  height: 70px;
 }
 
 div.desc2 {
@@ -1176,6 +1177,10 @@ a{
 
   .title-hebergement{
     padding-bottom: 12px;
+  }
+
+  div.desc{
+    height: 54px;
   }
   
   div.gallery2{
