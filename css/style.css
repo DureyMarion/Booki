@@ -140,6 +140,11 @@ i{
   align-items: center;
 }
 
+div.premier-plan{
+  position: relative;
+  z-index: 10;
+}
+
 .cercle{
   border-radius: 100%;
   min-width: 40px;
@@ -176,11 +181,6 @@ i{
 .btn-color{
   background-color: white;
   border-radius: 30px;
-}
-
-div.cercle .bleu-ciel{
-  position: relative;
-  z-index: 10;
 }
 
 .btn-color:hover{
