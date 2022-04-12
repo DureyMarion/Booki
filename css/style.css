@@ -468,11 +468,11 @@ main{
 }
 
 .bloc1 > * {
-  margin: 10px 13px 7px 16px;
+  margin: 10px 24px 7px 20px;
 }
 
 .bloc2 > * {
-  margin: 0 13px 7px 16px;
+  margin: 0 24px 7px 20px;
 }
 
 /* Fin Section 3 */
@@ -972,7 +972,8 @@ a{
 
   article > .gallery3{
     width: 94%;
-    margin: 0 14px 20px;
+    margin: 0 3px 20px 16px;
+
   }
 
   article > .gallery3 > .grande-image{
