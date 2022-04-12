@@ -178,6 +178,11 @@ i{
   border-radius: 30px;
 }
 
+div.cercle .bleu-ciel{
+  position: relative;
+  z-index: 10;
+}
+
 .btn-color:hover{
   background-color: lightgrey;
   border-radius: 25px;
@@ -344,7 +349,7 @@ i{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 29px 7px 31px;
+  margin: 0 20px;
 }
 
 .lien-voir-plus{
@@ -418,9 +423,11 @@ div.desc {
   padding-left: 12px;
   text-align: left;    
 }
+
 div.desc2 {
   padding-left: 17px;
   text-align: left;
+  margin-bottom: 15px;
 }
 
 .classement-etoile{
@@ -459,6 +466,7 @@ main{
   height: 200px;
   width: 100%;
 }
+
 .bloc1{
   width: 100%;
 }
@@ -468,12 +476,18 @@ main{
 }
 
 .bloc1 > * {
-  margin: 10px 24px 7px 20px;
+  margin: 10px 20px;
 }
 
 .bloc2 > * {
-  margin: 0 24px 7px 20px;
+  margin: 0 20px;
+} 
+
+.height-longchamp{
+  width: 100% !important;
 }
+
+
 
 /* Fin Section 3 */
 
@@ -553,8 +567,7 @@ a{
   }
 
   article > .gallery3{
-    width: 94%;
-    margin: 0 14px 20px;
+    width: 100%;
   }
 
   article > .gallery3 > .grande-image{
@@ -816,7 +829,6 @@ a{
   .lieu-activité{
     flex-direction: row;
     padding-bottom: 0;
-    padding-left: 10px;
   }
   
   .width-full{
@@ -972,9 +984,7 @@ a{
   }
 
   article > .gallery3{
-    width: 94%;
-    margin: 0 3px 20px 16px;
-
+    width: 100%;
   }
 
   article > .gallery3 > .grande-image{
@@ -1221,10 +1231,6 @@ a{
   .fa-chart-line{
     font-size: medium;
   }
-
-  div.gallery{
-    margin-bottom: 15px;
-  }
   
   div.gallery1 img{
     height: 150px;
@@ -1301,6 +1307,15 @@ a{
     margin-right: 6px;
     margin-bottom: 44px;
     margin-top: 10px;
+  }
+
+  .height-parc{
+    height: 100% !important;
+  }
+
+  .height-longchamp{
+    height: 186px !important;
+    margin-bottom: 10px !important;
   }
   
   .width50{
