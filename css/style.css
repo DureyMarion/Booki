@@ -118,7 +118,7 @@ i{
 }
 
 .marseille-france{
-  margin-left: 13px;
+  margin-left: 20px;
   width: 150px;
   font-weight: bold;
   font-size: 16px;
@@ -213,7 +213,7 @@ i{
   margin: auto;
   border: solid 1px #eceaea;
   border-radius: 15px;
-  width: 270px;
+  width: 330px;
   height: 40px;
   margin-top: 25px;
   margin-bottom: 15px;
@@ -225,7 +225,7 @@ i{
   border-radius: 15px 15px 15px 15px;
   width: 40px;
   height: 41px;
-  margin-left: 20px;
+  margin-left: 70px;
 }
 
 #input-text{
@@ -713,6 +713,7 @@ a{
     width: 90px;
     margin-top: 3px;
     margin-bottom: 3px;
+    margin-left: 10px;
   }
   
   .border-cercle{
@@ -864,7 +865,15 @@ a{
 
   /* Fin Main */
   
-  /* Footer*/
+}
+
+
+
+/* Media query */
+
+@media screen and (min-width: 900px) and (max-width: 991px) {
+  
+/* Footer */
 
   footer{
     padding-left: 50px;
@@ -893,11 +902,9 @@ a{
   }
 
   /* Fin Footer */
+
 }
 
-
-
-/* Media query */
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   
@@ -1123,6 +1130,7 @@ a{
     width: 90px;
     margin-top: 3px;
     margin-bottom: 3px;
+    margin-left: 10px;
   }
   
   .border-cercle{
