@@ -914,7 +914,6 @@ a{
  
   .flex-container2 {
     width: initial;
-    padding-bottom: 15px;
   }
  
   .flex-container2 > div {
@@ -932,6 +931,7 @@ a{
     align-items: center;
     width: 100% !important;
     margin-bottom: 0;
+    margin-top: 10px;
     padding-right: 0;
   }
  
@@ -940,6 +940,7 @@ a{
     align-items: center;
     width: 100% !important;
     margin-bottom: 10px;
+    margin-top: 0;
   }
   
   .bloc1 > *{
@@ -1166,10 +1167,6 @@ a{
   .title-hebergement{
     padding-bottom: 12px;
   }
-
-  #hebergements-marseille{
-    padding: 0 20px;
-  }
   
   div.gallery2{
     height: 100%;
@@ -1199,10 +1196,11 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom: 20px;
   }
   
   .lien-voir-plus{
-    margin: 11px 50px;
+    margin: 0 50px;
   }
 
   /* Fin Section 1 */
@@ -1238,9 +1236,6 @@ a{
     margin-top: 20px;
   }
 
-  .flex-container1{
-    padding-bottom: 27px;
-  }
  
   /* Fin Section 2 */
 
@@ -1261,6 +1256,7 @@ a{
     width: 50%;
     padding-right: 20px;
     margin-bottom: 50px;
+    margin-top: 10px;
   }
   
   .h-full > div {
@@ -1281,6 +1277,7 @@ a{
     padding-left: 20px;
     margin-right: 6px;
     margin-bottom: 50px;
+    margin-top: 10px;
   }
   
   .width50{
@@ -1335,11 +1332,27 @@ a{
   @media screen and (min-width: 992px) and (max-width: 1299px){
    
     .hebergement-a-marseille{
-      height: 625px;
+      height: 685px;
+    }
+
+    #hebergement-marseille{
+      margin: 0;
     }
 
     .title-hebergement{
       padding-bottom: 17px;
+    }
+
+    main{
+      padding: 0 20px;
+    }
+
+    .flex-container2{
+      margin: 0 5px;
+    }
+
+    .lien-voir-plus{
+      margin: 10px 50px;
     }
 
   }
