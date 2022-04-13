@@ -141,8 +141,11 @@ i{
 }
 
 div.premier-plan{
+  width: 44px;
+  height: 44px;
+  right: 4px;
   position: relative;
-  z-index: 10;
+  top: -2px;
 }
 
 .cercle{
@@ -181,6 +184,7 @@ div.premier-plan{
 .btn-color{
   background-color: white;
   border-radius: 30px;
+  height: 40px;
 }
 
 .btn-color:hover{
@@ -191,7 +195,7 @@ div.premier-plan{
 .filter-button{
   border: solid 2px #cdcbcb;
   border-radius: 25px;
-  min-height: 40px;
+  height: 40px;
   margin-top: 12px;
   margin-left: 10px;
 }
@@ -199,7 +203,7 @@ div.premier-plan{
 .filter-text{
   display: flex;
   align-items: center;
-  margin: 10px;
+  margin: 10px 10px 10px 5px;
   font-weight: bold;
   font-size: 15px;
 }
@@ -265,29 +269,29 @@ div.premier-plan{
 
 .fa-money-bill-wave{
   display: flex;
-  padding-top: 11px;
-  padding-left: 9px;
+  padding-top: 13px;
+  padding-left: 11px;
   font-size: large;
 }
 
 .fa-child{
   display: flex;
-  padding-top: 11px;
-  padding-left: 11px;
+  padding-top: 13px;
+  padding-left: 14px;
   font-size: large;
 }
 
 .fa-heart{
   display: flex;
-  padding-top: 11px;
-  padding-left: 10px;
+  padding-top: 14px;
+  padding-left: 13px;
   font-size: large;
 }
 
 .fa-dog{
   display: flex;
-  padding-top: 11px;
-  padding-left: 10px;
+  padding-top: 12px;
+  padding-left: 13px;
   font-size: large;
 }
 
