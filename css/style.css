@@ -99,8 +99,16 @@ li.page2{
 
 .page2:hover, .page-active:hover{
   border-bottom: 3px solid #0065FC;
+}
+
+.page2:hover > a{
   color: #0065FC;
 }
+
+.page-active:hover > a {
+  color: #0065FC;
+}
+
 
 .p-left{
   text-align: left;
@@ -679,7 +687,6 @@ a{
   .page2:hover, .page-active:hover{
     width: 50%;
     border-top: 3px solid rgb(38, 117, 236);
-    color: rgb(38, 117, 236);
     border-bottom: none;
   }
   
@@ -1100,7 +1107,6 @@ a{
   .page2:hover, .page-active:hover{
     width: 50%;
     border-top: 3px solid rgb(38, 117, 236);
-    color: rgb(38, 117, 236);
     border-bottom: none;
   }
   
