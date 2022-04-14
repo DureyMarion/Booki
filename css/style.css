@@ -552,6 +552,10 @@ a{
 
 /* Fin Footer */
 
+.sous-menu{
+  font-size: 22px;
+}
+
 
 /* Media query */
 /* icon loupe dans barre de recherche */
@@ -884,6 +888,13 @@ a{
 
   /* Fin Main */
   
+  /* Footer */
+
+  .sous-menu{
+    font-size: 16px;
+  }
+
+  /* Fin footer */
 }
 
 
@@ -1350,6 +1361,10 @@ a{
     padding-left: 50px;
   }
 
+  .sous-menu{
+    font-size: 16px;
+  }
+
   div.footer-item{
     width: 100%;
     display: flex;
@@ -1424,6 +1439,10 @@ a{
 
     .prix{
       padding-top: 0;
+    }
+
+    .sous-menu{
+      font-size: 14px;
     }
   }
 }
