@@ -913,7 +913,7 @@ a{
 
   .footer-item h3{
     padding-bottom: 13px;
-    padding-top: none;
+    padding-top: 0;
   }
   
   .item2{
@@ -1365,7 +1365,7 @@ a{
   
   .footer-item h3{
     padding-bottom: 13px;
-    padding-top: none;
+    padding-top: 0;
   }
   
   .item2{
